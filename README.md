@@ -56,6 +56,8 @@ The whole project include the following steps
 
 </details>
 
+</details> 
+  
 <details open>
 <summary>Result</summary>
 
