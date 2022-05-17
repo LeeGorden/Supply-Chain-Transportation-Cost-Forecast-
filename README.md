@@ -13,6 +13,9 @@ The purpose of this project is to forecast transportation cost using multiple da
 <summary>Step</summary>
 The whole project include the following steps
 
+  <details open>
+  <summary>Data Preprocess</summary>
+  
 - Data Preparation:
 
   (1)  Data Cleaning. The original data set combined both  Report 2 & Report 3 contains 10078  samples. After deleting in null-value  sample, abnormal-value sample and  removing samples with possible noise  interrupting models, 5979 samples were  remained including 80+ predictors. The  cleaned data set still cover almost all the  information in important dimension like  Actual Freight Cost, Miles, Gross Weight etc. Credibility of the cleaned data set is  ensured.
@@ -23,46 +26,40 @@ The whole project include the following steps
 
   In this project, random forest feature filtering is applied. From the Random-Forest model with 100  decision trees in it, 15 possible predictors  were chosen, leading by Miles, Diesel  Price, Route Highway Density, Gross  Weight, Season, Year. These feature  covers more than 95% of contribution of  importance.
 
-  ![image-20220516213139091](C:\Users\LiGoudan\AppData\Roaming\Typora\typora-user-images\image-20220516213139091.png)
+  ![image](https://user-images.githubusercontent.com/72702872/168720627-1ab8212f-3ceb-4159-a1f8-27474dfce33d.png)
 
-- Descriptive Analysis:
+</details>  
 
+<details open>
+<summary>Descriptive Analysis</summary>
+
+- Feature Distribution:
   
+  ![image](https://user-images.githubusercontent.com/72702872/168721380-ab392343-6c9f-4fcc-9644-bcb298e47c80.png)
+  
+  ![image](https://user-images.githubusercontent.com/72702872/168721423-0e073eba-c6b4-4feb-966a-6dc03bb2b4df.png)
+
+  ![image](https://user-images.githubusercontent.com/72702872/168721461-07fb7a16-fbfa-4e4e-97a4-06d6bf54ec4f.png)
+
+- Correlation:
+  
+  ![image](https://user-images.githubusercontent.com/72702872/168721533-a0534e12-955b-4615-b564-7aa3139106e5.png)
+
+</details>   
+
+<details open>
+<summary>Model Training</summary>
+  
+- In this case, model performance is as follows:
+  
+  ![image](https://user-images.githubusercontent.com/72702872/168722154-738f520b-0e67-4031-808c-0d384164009a.png)
+
+  ![image](https://user-images.githubusercontent.com/72702872/168722327-35e1a814-75dc-4b1e-9333-d56c216f723f.png)
 
 </details>
 
 <details open>
 <summary>Result</summary>
-
-<details open>
-<summary>Descriptive Analysis</summary>
-
-- The whole report:
-  [Prediction on Soybean Variety Yield an application.pdf](https://github.com/LeeGorden/Prediction-on-Soybean-Variety-Yield-and-apply-to-Soybean-Variety-Selection/files/8703041/Prediction.on.Soybean.Variety.Yield.an.application.pdf)
-
-- ![image](https://user-images.githubusercontent.com/72702872/168672066-dcd3c8eb-11b0-4ffb-b2de-0cbfe7f7399f.png)
-
-- ![image](https://user-images.githubusercontent.com/72702872/168672253-9e58dcfc-2e40-4415-9a68-ff3a174ddc67.png)
-
-- ![image](https://user-images.githubusercontent.com/72702872/168672386-20f37ec9-3daf-4e64-b317-0fccc52e0cec.png)
-
-- ![image](https://user-images.githubusercontent.com/72702872/168672921-57764f2f-31e7-474b-9ee8-20ad34f6ad2e.png)
-  
-- Cluster result(K-means) of different types of Soybean based on latitude and longitude: 
-  ![image](https://user-images.githubusercontent.com/72702872/168672980-3ece86ec-761a-49f6-bcfe-8af77c856a3e.png)
-  
-- ![image](https://user-images.githubusercontent.com/72702872/168673502-9d7cf5b0-4e66-4099-8c38-857e5d288ae1.png)
-
-</details>
-
-<details open>
-<summary>Predictive Analysis</summary>
-
-- Performance of different models:
-  ![image](https://user-images.githubusercontent.com/72702872/168673748-9a288c0c-3a9f-47ee-8188-a4ccbde63a0c.png)
-  
-
-</details>
 
 <details open>
 <summary>Prescriptive Analysis</summary>
