@@ -75,6 +75,8 @@ The whole project include the following steps
   ![image](https://user-images.githubusercontent.com/72702872/168723556-90aff976-d478-4165-ae64-7c01b75b7d6f.png)
 
 </details>
+  
+</details>
 
 <details open>
 <summary>Reference</summary>
